@@ -40,6 +40,8 @@ a:hover {
 
 p {
   line-height: 2;
+  font-family: 'Montserrat', sans-serif;
+  color: #f875aa;
 }
 
 hr {
@@ -50,7 +52,7 @@ hr {
 }
 
 .top-container {
-  background-color: #E4F9F5;
+  background-color: #ffe8e8;
   position: relative;
   padding-top: 100px;
 }
@@ -60,7 +62,7 @@ hr {
 }
 
 .bottom-container {
-  background-color: #66BFBF;
+  background-color: #edffec;
   padding: 50px 0 20px;
 }
 
@@ -106,14 +108,21 @@ hr {
   width: 25%;
   float: left;
   margin-right: 30px;
+  border-radius: 100%;
 }
 
 .development-img {
   width: 25%;
   float: right;
   margin-left: 30px;
+  border-radius: 100%;
 }
 
+.gif {
+  border-radius: 100%;
+  width: 15%;
+  margin-top: 5px;
+}
 .btn {
    background: #11CDD4;
    background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
